@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2 {
+	font-size: 2em;
+	color:  #333;
+}
+h3 {
+	font-size: 1.5em;
+	color:  #333;
+}
+p{
+	font-size: 1.2em;
+	color: #777;
+}
+.fundohome {
+	background-color: black;
+}
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 25px 6%;
+	background: linear-gradient( #00008B, #BA55D3);
+}
+.logo a{
+	width: 85px;
+	height: 80px;
+	float: left;
+	background-image: url(../img/logo.png);
+	background-color: white;
+	border-radius: 10px;
+	font-size: 0px;
+}
+.cabecalho h2 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	color: whitesmoke;
+	font-size: 36px;
+	padding-left: 120px;
+
+}
+.cabecalho form{
+	width: 30%;
+	float: right;
+}
+.cabecalho input[type="text"]{
+	width: 85%;
+	float: left;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 10px 8px;
+	font-size: 13px;
+}
+.cabecalho button{
+	font-size: 13px;
+	width: 15%;
+	float: right;
+	padding: 10px 8px;
+	background-color: black;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.cabecalho button:hover {  
+	transition: 0.5s;
+	background-color: #C0C0C0;
+	color: black;
+	opacity: 0.8;
+}
+.menu{
+	float:left;
+	width: 100%;
+	background-color: black;
+	padding: 18px 8%;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	font-family: 'Sigmar One', cursive;
+	font-size: 20px;
+	color: whitesmoke;
+	margin-right: 25px;
+}
+.menu li a:hover{
+	color: #9d9d9d;;
+}
+.social-icons {
+	float: right;
+}
+.social-icons a {
+	color: whitesmoke;
+	float: left;
+	margin-left: 19px;
+}
+.btn-instagram i:hover {
+	background-image:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	border-radius: 1px;
+}
+.btn-youtube:hover {
+	color: #bb0000;
+}
+.btn-twitter:hover {
+	color: #00aced;
+}
+.btn-facebook:hover {
+	color: #3b5998;
+}
+.principal {
+	padding: 15px 8%;
+}
+.page {
+	margin: 0% 20% 0 20%;
+	justify-content: center;
+	background-color: whitesmoke;
+}
+.sobre {
+	width: 100%;
+	text-align: left;
+	padding: 0 20px 20px 0;
+}
+.sobre h2 {
+	font-size: 2em;
+	color:  #333;
+	font-family: 'Staatliches', cursive;
+	margin-bottom: 25px;
+}
+.sobre img {
+	width: 50%;
+	float: left;
+	border-radius: 20px;
+}
+.paragrafo #p1 {
+	padding-left: 380px;
+}
+.paragrafo {
+	margin: 0px 15px 5px 0px;
+	text-align: justify;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.paragrafo p {
+	padding-left: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.paragrafo h3{
+	font-family: 'Staatliches', cursive;
+}
+.onde-estamos {
+	width: 10%;
+	padding: 10px 20px;
+}
+.rodape {
+	background-color: black;
+	width: 100%;
+	float: left;
+}
+.contato {
+	background-color: black;
+	font-size: 12px;
+	padding-left: 1%;
+}
+.contato i {
+	padding-right: 5px;
+}
+
+/*PAGINA DE LOGIN*/
+
+.fundologin{
+	background-image: url(../img/fundo0.gif);
+	font-family: 'Londrina Solid', cursive;
+	font-size: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+.tablelogin {
+	margin: 0 auto;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.tablelogin td {
+	background-color: white;
+	border: solid 1px black;
+	height: 500px;
+	width: 350px;
+	text-align: center;
+}
+#td1 {
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 170px;
+}
+.td2 {
+	border-top-right-radius: 170px;
+	border-bottom-right-radius: 25px;
+}
+.td2 h1 {
+	font-size: 2em;
+	color:  #333;
+}
+.login input[type="text"]{
+	font-family: 'Londrina Solid', cursive;
+	padding: 5px;
+	width: 80%;
+	border: black solid 3px;
+	border-radius: 10px;
+	margin-top: 30px;
+
+}
+.login input[type="password"]{
+	font-family: 'Londrina Solid', cursive;
+	padding: 5px;
+	width: 80%;
+	border: black solid 3px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.login button {
+	font-family: 'Londrina Solid', cursive;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	margin-left: 225px;
+	margin-top: 15px;
+	cursor: pointer;
+
+}
+.login button:hover {  
+	transition: 0.5s;
+	background-color: #C0C0C0;
+	color: black;
+	opacity: 0.8;
+}
+#esqsenha {
+	padding: 7px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 14px;
+}
+#entrar {
+	padding: 2px;
+	margin-left: 223px;
+	margin-top: 70px;
+	padding-left: 23px;
+	padding-right: 23px;
+	font-size: 20px;
+}
+
+/*Pagina produtos*/
+.sobreproduct h2 {
+	text-align: center;
+}
+.sobreproduct p{
+	color: black;
+}
+.sobreproduct a {
+	border-radius: 0px 0px 10px 10px;
+	color: whitesmoke;
+	padding:  5px;
+	background-color: #363636;
+}
+.sobreproduct a:hover{
+	color: black;
+	background-color: #C0C0C0;
+}
+.sobreproduct img{
+	border: solid black 1px;
+	border-radius: 20px 20px 20px 0px;
+	width: 80%;
+	height: 50%;
+	padding: 5px;
+}
